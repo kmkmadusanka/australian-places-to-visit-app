@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Instafood",
-    "slug": "instafood-recipes-app",
-    "description": "React Native Recipes App Demo. Download source code for free at https://www.instamobile.io . You can also check out the Swift version at https://www.iosapptemplates.com and the Kotlin version at https://www.instakotlin.com .",
+    "name": "AustraliaBeauty",
+    "slug": "place-to-visit-app",
+    "description": "App with details about places to visit in Australia",
     "privacy": "public",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -26,10 +26,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.kasunkm.placetovisitapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd56db67-4496-4813-88d7-8d6f86adb728"
+      }
     }
   }
 }
